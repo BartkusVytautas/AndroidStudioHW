@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CountryInfo</string>
+    <string name="countries">Choose a country</string>
+    <string name="population">Population: </string>
+    <string name="Region">Region: </string>
+    <string name="surfaceArea">Surface area: </string>
+    <string name="continent">Continent: </string>
+</resources>
