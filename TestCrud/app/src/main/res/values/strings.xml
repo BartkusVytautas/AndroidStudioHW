@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestCrud</string>
+    <string name="testStart">Start test</string>
+    <string name="addQuestion">Add new question</string>
+    <string name="modifyExsistingQuestion">Modify existing question</string>
+    <string name="submitAnswer">Submit the answer</string>
+    <string name="goback">Home</string>
+    <string name="result">Answered correctly: </string>
+    <string name="modify">Modify </string>
+    <string name="questionmod">Question:  </string>
+    <string name="a1mod">Answer 1: </string>
+    <string name="a2mod">Answer 2: </string>
+    <string name="a3mod">Answer 3: </string>
+    <string name="correctansw">Correct answer: </string>
+    <string name="changeQuestion">Change</string>
+
+
+</resources>

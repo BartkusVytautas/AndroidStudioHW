@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#463E3E"
+    tools:context=".EditForm">
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow5" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/correctansw"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/modanswer"
+            android:layout_width="315dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow4" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a3mod"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/moda3"
+            android:layout_width="315dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow3" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a2mod"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/moda2"
+            android:layout_width="315dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/questionmod"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/modq"
+            android:layout_width="315dp"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFFFF"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a1mod"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/moda1"
+            android:layout_width="315dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="updateQuestionById"
+        android:text="@string/changeQuestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
